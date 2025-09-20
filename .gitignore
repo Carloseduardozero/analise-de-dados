@@ -1,0 +1,12 @@
+# Ignorar ambiente virtual
+venv/
+.env/
+
+# Ignorar arquivos temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos do VS Code
+.vscode/
