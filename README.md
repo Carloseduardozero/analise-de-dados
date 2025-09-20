@@ -14,28 +14,34 @@ Este projeto tem como objetivo demonstrar o uso da biblioteca **Pandas** para an
 ```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
-
-2. Criar ambiente virtual
+```
+### 2. Criar ambiente virtual 
+```bash
 python -m venv venv
-
-3. Ativar ambiente virtual
-
+```
+### 3. Ativar ambiente virtual
+```bash
 venv\Scripts\activate
 
+ou
+
 .\venv\Scripts\Activate.ps1
-
-4. Instalar dependências
-
+```
+### 4. Instalar dependências
+```bash
 pip install -r requirements.txt
-
-5. Executar o script
-
+```
+### 5. Executar o script
+```bash
 python analiseService.py
+```
 
-📦 Dependências
+## 📦 Dependências
 
 pandas
+matplotlib
 
-📌 Agora é só rodar:
-
+## 📌 Agora é só rodar:
+```bash
 pip freeze > requirements.txt
+```
